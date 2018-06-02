@@ -1,12 +1,23 @@
 /* Body */
 
 body{
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('img/20180219_122528-01.jpeg');
+    background-image: url("img/20180225_164223-01.jpeg");
     background-size: cover;
     background-position: bottom;
-    font-family: sans-serif;
+}
+
+/* background */
+
+#background{
+    margin: 0;
+    padding: 0;
+    width: 1032;
+    height: 924;
+    position: absolute;
+    
 }
 
 /* login box */
@@ -44,13 +55,22 @@ h1{
     font-size: 22px;
 }
 
-.login p{
+.label{
     margin: 0;
     padding: 0;
-    font-weight: bold; 
+    font-weight: bold;
+    color: whitesmoke;
 }
 
-.login input{
+.label input{
     width: 100%;
     margin-bottom: 20px;
+}
+
+a{
+    
+}
+
+a:hover{
+    color: whitesmoke;
 }
